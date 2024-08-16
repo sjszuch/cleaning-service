@@ -1,0 +1,25 @@
+.container-card1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+
+  border-radius: 10px;
+}
+
+img {
+  width: 100%;
+}
+
+p {
+}
+
+// Desktop Styles
+@media (min-width: 1024px) {
+  .container-card1 {
+    width: 30%;
+  }
+}
